@@ -19,7 +19,7 @@ interface QuestionTagRepository: CrudRepository<QuestionTag, Long>
 
 @Repository
 interface AnswerRepository: CrudRepository<Answer, Long> {
-    fun findByQuestionIdOrderByTimeDesc(questionId: Long): Iterable<Answer>
+    fun findByQuestionIdOrderByTime(questionId: Long): Iterable<Answer>
 }
 
 @Repository

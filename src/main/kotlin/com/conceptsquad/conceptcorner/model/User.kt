@@ -10,8 +10,5 @@ class User(
         var id: Long? = null,
 
         @Column(nullable = false, unique = true)
-        var username: String,
-
-        @Column(name = "avatar_url")
-        var avatarUrl: String? = null
+        var username: String
 )
