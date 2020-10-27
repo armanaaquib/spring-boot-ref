@@ -12,7 +12,7 @@ interface UserRepository : JpaRepository<User, Long> {
 
 @Repository
 interface QuestionRepository: CrudRepository<Question, Long> {
-    fun findAllByOrderByTimeDesc(): Iterable<Question>
+    fun findAllByOrderByTimeDesc(): List<Question>
 }
 
 @Repository

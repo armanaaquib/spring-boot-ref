@@ -1,2 +1,2 @@
--- INSERT INTO public.users (username) VALUES ("michel");
--- INSERT INTO public.questions (title) VALUES ("title");
+INSERT INTO users (username) VALUES ('michel');
+INSERT INTO users (username) VALUES ('jack');

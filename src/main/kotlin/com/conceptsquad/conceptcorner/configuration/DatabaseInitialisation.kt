@@ -5,8 +5,10 @@ import com.conceptsquad.conceptcorner.repo.*
 import org.springframework.boot.ApplicationRunner
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
+import org.springframework.context.annotation.Profile
 
 @Configuration
+@Profile("dev")
 class DatabaseInitialisation {
 
     @Bean
