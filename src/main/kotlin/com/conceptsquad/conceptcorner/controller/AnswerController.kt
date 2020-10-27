@@ -1,5 +1,6 @@
 package com.conceptsquad.conceptcorner.controller
 
+import com.conceptsquad.conceptcorner.dto.AnswerStat
 import com.conceptsquad.conceptcorner.model.Answer
 import com.conceptsquad.conceptcorner.model.Question
 import com.conceptsquad.conceptcorner.model.User
@@ -31,4 +32,3 @@ class AnswerController(
 
 }
 
-data class AnswerStat(val description: String, val questionId: Long, val userId: Long)

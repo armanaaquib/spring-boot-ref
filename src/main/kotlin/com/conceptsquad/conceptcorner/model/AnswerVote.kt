@@ -5,7 +5,7 @@ import javax.persistence.*
 
 @Entity
 @Table(name = "answer_votes")
-class AnswerVote(
+data class AnswerVote(
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         var id: Long? = null,

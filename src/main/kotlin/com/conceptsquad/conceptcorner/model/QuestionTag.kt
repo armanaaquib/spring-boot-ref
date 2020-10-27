@@ -15,7 +15,7 @@ import javax.persistence.*
 
 @Entity
 @Table(name = "question_tags")
-class QuestionTag(
+data class QuestionTag(
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         var id: Long? = null,
